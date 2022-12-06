@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Libre+Bodoni&family=PT+Serif:wght@700&family=Playfair+Display&family=Raleway:wght@100&family=Roboto+Flex:opsz@8..144&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #F5F5DC;
+    color: black;
+    font-size: 17px;
+    font-weight: bold; /*letras em negrito*/
+}
+
+#container{
+    background-color: red;
+    width: 950px;
+    height: 580px;
+    border: 2px solid rgb(155, 135, 135);
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+input{
+    display: block;
+    margin: 5px 2px 0 5px;
+    border: 1px solid#FFD700;
+    border-radius: 6px;
+    padding: 4px;
+    background: #F0E68C;
+}
+
+.info{
+    width: 200px;
+}
+
+.form{
+    width: 475px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px; /*espaço entre as letras*/
+}
+
+.submit{
+    display: inline;
+    margin: 13px 2px 0 10px;
+    padding: 5px;
+    letter-spacing: 2px;
+}

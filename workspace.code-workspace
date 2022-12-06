@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "..\\css intermediario avançado\\fontes customizadas"
+		},
+		{
+			"path": "..\\css intermediario avançado\\parallax-teste"
+		},
+		{
+			"path": "..\\css intermediario avançado\\parallax"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\css intermediario avançado\\atividades\\formulario"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "conhecimento-teste"
+	}
+}
