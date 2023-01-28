@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="/javascript.js"></script>
     <title>Página Inicial</title>
 </head>
 <body>
@@ -14,18 +15,24 @@
             <img src="img/img1.png">
         </div>
         <div class="form">
-            <form action="cool.html">
+            <form">
                 <label for="Username">Username:</label>
                 <input class="info"type="text" name="Username" id="Username" width="100px">
                 <br>
                 <label for="Password">Password:</label>
-                <input class="info" type="password" name="Password" id="Password" width="100px">
+                <input 
+                onfocus="acionaCampo()"
+                onblur="validaCampo()" 
+                class="info" 
+                type="text" 
+                name="Password" 
+                id="Password" 
+                width="100px">
                 <br>
                 <input class="submit" type="submit" name="submit" value="Sign In">
                 <input  class="submit" type="submit" name="submit" value="Sign Up">
             </form>
         </div>
     </div>
-    
 </body>
 </html>
